@@ -1,6 +1,4 @@
 class Questions:
-    def __init__(self, n_text, n_answers):
+    def __init__(self, n_text, n_answer):
         self.text = n_text
-        self.answers = n_answers
-
-        print("Let")
+        self.answer = n_answer
